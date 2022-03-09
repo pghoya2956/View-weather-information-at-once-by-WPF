@@ -5,6 +5,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using View_weather_information_at_once.Core;
+using View_weather_information_at_once.ViewModel;
 
 namespace View_weather_information_at_once.Model
 {
@@ -17,8 +19,8 @@ namespace View_weather_information_at_once.Model
 			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
 		}
 
-		private int _currentView;
-		public int CurrentView 
+		private object? _currentView;
+		public object CurrentView 
 		{
 			get => _currentView;
 			set 
@@ -27,5 +29,10 @@ namespace View_weather_information_at_once.Model
 				OnPropertyChanged();
 			}
 		}
+
+		public RelayCommand? OverViewCommand { get; set; }
+
+		public OverViewViewModel? OverViewVM { get; set; }
+
 	}
 }

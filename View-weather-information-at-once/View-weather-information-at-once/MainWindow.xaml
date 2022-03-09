@@ -87,7 +87,8 @@
 				</StackPanel.Resources>
 
 				<Border Height="20"/>
-				<RadioButton Name="OverView"/>
+				<RadioButton Name="OverView"
+							 Command="{Binding MainModel.OverViewCommand}"/>
 				<RadioButton Name="Search"/>
 				<RadioButton Name="Graph"/>
 				<RadioButton Name="Analysis"/>
@@ -98,7 +99,7 @@
 			<ContentControl Grid.Row="1"
                             Grid.Column="1"
                             Margin="10"
-                            Content="{Binding CurrentView}"/>
+                            Content="{Binding MainModel.CurrentView}"/>
 		</Grid>
 
 
