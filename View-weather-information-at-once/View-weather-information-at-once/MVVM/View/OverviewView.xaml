@@ -7,9 +7,9 @@
              mc:Ignorable="d" 
              d:DesignHeight="700" d:DesignWidth="1000">
 
-	<!--<d:UserControl.DataContext>
+	<d:UserControl.DataContext>
 		<viewModel:OverViewViewModel/>
-	</d:UserControl.DataContext>-->
+	</d:UserControl.DataContext>
 
 	<Grid Background="White">
         
