@@ -1,8 +1,8 @@
 ﻿<Application x:Class="View_weather_information_at_once.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:viewModel="clr-namespace:View_weather_information_at_once.ViewModel"
-             xmlns:view="clr-namespace:View_weather_information_at_once.View"
+             xmlns:viewModel="clr-namespace:View_weather_information_at_once.MVVM.ViewModel"
+             xmlns:view="clr-namespace:View_weather_information_at_once.MVVM.View"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 		<ResourceDictionary>
