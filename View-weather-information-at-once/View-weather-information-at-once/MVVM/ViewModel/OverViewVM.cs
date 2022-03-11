@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace View_weather_information_at_once.MVVM.ViewModel
 {
-	public class OverViewViewModel
+	public class OverViewVM
 	{
 	}
 }

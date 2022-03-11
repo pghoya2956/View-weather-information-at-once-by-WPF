@@ -10,7 +10,7 @@
 			</ResourceDictionary.MergedDictionaries>
 
 			<!--OverViewViewModel 타입의 내용을 OverviewView 형식으로 표현해라 -->
-			<DataTemplate DataType="{x:Type viewModel:OverViewViewModel}">
+			<DataTemplate DataType="{x:Type viewModel:OverViewVM}">
 				<view:OverviewView/>
 			</DataTemplate>
 

@@ -10,29 +10,9 @@ using View_weather_information_at_once.MVVM.ViewModel;
 
 namespace View_weather_information_at_once.MVVM.Model
 {
-	public class MainModel : INotifyPropertyChanged
+	public class MainModel
 	{
-		public event PropertyChangedEventHandler? PropertyChanged;
-
-		protected void OnPropertyChanged([CallerMemberName] string? name = null)
-		{
-			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-		}
-
-		private object? _currentView;
-		public object CurrentView
-		{
-			get => _currentView;
-			set
-			{
-				_currentView = value;
-				OnPropertyChanged();
-			}
-		}
-
-		public RelayCommand? OverViewCommand { get; set; }
-
-		public OverViewViewModel? OverViewVM { get; set; }
+		
 
 	}
 }
